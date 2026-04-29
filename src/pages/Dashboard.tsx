@@ -65,7 +65,7 @@ function Dashboard() {
       <div className="bg-white rounded-lg shadow p-4 mt-4">
         <h3 className="text-lg font-bold mb-4">ペース推移（ラン）</h3>
         <LineChart width={600} height={300} data={paceData}>
-          <CartesianGrid strokeDashArray="3 3" />
+          <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
