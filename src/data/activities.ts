@@ -1,0 +1,46 @@
+import type { Activity } from "../types/activity";
+
+export const activities: Activity[] = [
+  {
+    id: 1,
+    name: "朝ラン",
+    type: "run",
+    date: "2026-04-01",
+    distance: 10.2,
+    time: 3120,
+    pace: 5.1,
+    speed: 11.7,
+    elevation: 85,
+    heartRate: 152,
+    calories: 520,
+    power: 245,
+  },
+  {
+    id: 2,
+    name: "ロングライド",
+    type: "ride",
+    date: "2026-04-05",
+    distance: 60.5,
+    time: 7800,
+    speed: 27.9,
+    pace: 2.2,
+    elevation: 420,
+    heartRate: 145,
+    calories: 1200,
+    power: 198,
+  },
+  {
+    id: 3,
+    name: "インターバル走",
+    type: "run",
+    date: "2026-04-10",
+    distance: 8.0,
+    time: 2400,
+    pace: 4.5,
+    speed: 13.3,
+    elevation: 40,
+    heartRate: 168,
+    calories: 420,
+    power: 280,
+  }
+]
