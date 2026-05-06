@@ -7,6 +7,9 @@ dependencies:
   react-dom:
     specifier: ^19.2.4
     version: 19.2.4(react@19.2.4)
+  react-ga4:
+    specifier: ^3.0.1
+    version: 3.0.1
   react-router-dom:
     specifier: ^7.14.0
     version: 7.14.0(react-dom@19.2.4)(react@19.2.4)
@@ -1790,6 +1793,10 @@ packages:
     dependencies:
       react: 19.2.4
       scheduler: 0.27.0
+    dev: false
+
+  /react-ga4@3.0.1:
+    resolution: {integrity: sha512-GyCc01bSheWXjzGDyHsXMOqk/SP5Cf/JrcJTg4hcpKx4eeSwaJKpJUc+ipF4ffLTZkmabmf3ZGBv4OKHTXNXyA==}
     dev: false
 
   /react-is@19.2.5:
